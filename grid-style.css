@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    display: grid;
+    gap: 15px;
+    width: auto;
+    grid-template-areas:
+        "logo   nav    nav     nav"
+        "main   main   main  main"
+        "banner1 banner1  banner2 banner2"
+        "banner3 banner3  banner4 banner4"
+        "banner5 banner5  banner6 banner6"
+        "footer footer footer  footer";
+}
+body {
+    font-family: system-ui;
+    color: white;
+}
+.grid-item {
+    background: lightgray;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 15px;
+    font-size: 2em;
+}
+.one {
+    grid-area: logo;
+}
+.two {
+    grid-area: nav;
+}
+.three {
+    grid-area: main;
+}
+.four {
+    grid-area: banner1;
+}
+.five {
+    grid-area: banner2;
+}
+.six {
+    grid-area: banner3;
+}
+.seven {
+    grid-area: banner4;
+}
+.eight {
+    grid-area: banner5;
+}
+.nine {
+    grid-area: banner6;
+}
+.ten {
+    grid-area: footer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
